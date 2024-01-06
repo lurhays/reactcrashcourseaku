@@ -19,7 +19,7 @@ const CowSay = () => {
     useEffect(() => {
         function detectChanges() {
             if(data === '1') {
-                setSaySomethingElse('Yoooooooo!');
+                setSaySomethingElse('Something else!');
             }
         }
         detectChanges()
